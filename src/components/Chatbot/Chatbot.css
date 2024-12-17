@@ -1,7 +1,7 @@
 /* Ensure smooth interaction with the chatbot */
 .chatbot {
-  width: 480px;
-  height: 750px;
+  width: 430px!important;
+  height: 650px!important;
   border-radius: 12px;
   background-color: #ffffff;
   display: flex;

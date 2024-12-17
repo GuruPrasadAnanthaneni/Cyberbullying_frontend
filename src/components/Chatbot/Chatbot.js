@@ -62,10 +62,6 @@ function Chatbot({ onHomeClick }) {
 
       setTimeout(() => {
         const botResponse = generateResponse(input);
-        setMessages((prevMessages) => [
-          ...prevMessages,
-          { text: botResponse, sender: "bot" },
-        ]);
       }, 1000);
 
       if (isIncident(input)) {
