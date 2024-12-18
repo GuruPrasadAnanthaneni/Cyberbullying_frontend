@@ -240,8 +240,6 @@ html {
 
 /* General layout for the chatbot */
 .chatbot {
-  width: 550px;
-  height: 750px;
   border-radius: 8px;
   background-color: #ffffff;
   display: flex;
